@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+ 
+    
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active {outline: none;}
+a :focus, a :active {outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+body{
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: monospace;
+    background-image: url("../img/background.png");
+    background-size: cover;
+  
+    
+   
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a :visited{text-decoration: none;}
+a :hover{text-decoration: none;}
+ul li{list-style: none;}
+a{font-family: inherit; color: inherit; font-size: inherit;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.header{
+    background-color: #ffffff;
+    width: 920px;
+    height: 205px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 36px 4px rgba(44,22,29,0.3);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 129px;
+    position: relative;
+}
+
+.header__btn{
+    position: absolute;
+    left: 440px;
+    top: -17px;
+    border: none;
+}
+
+.header__img--head{
+    position: absolute;
+    left: 425px;
+    top: 33px;
+}
+
+.header__img--end{
+    position: absolute;
+    left: 425px;
+    top: 168px;
+}
+
+
+
+.header__menu{
+    
+}
+
+.header__list{
+   display: flex; 
+   justify-content: center;
+   padding-top: 70px;
+   
+}
+
+.header__item{
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #b8b9b9;
+    margin-right: 30px;
+}
+
+.header__item--dark{
+    color: #767777;
+}
+
+.header__title{
+    font-family: Montserrat;
+    font-size: 38px;
+    line-height: 36px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0e1010;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.input{
+    background-color: #f8f8f8;
+    width: 920px;
+    height: 430px;
+    background-color: #f8f8f8;
+    box-shadow: inset 0px 0px 9px 0px rgba(1,1,1,0.16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5a5b5b;
+}
+
+.input__name{
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+    border: 2px solid #b3cbda;
+    background-color: #d3e6f4;
+    padding-left: 31px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #5a5b5b;
+}
+
+.input__email{
+    margin-top: 22px;
+    width: 500px;
+    height: 40px;
+    border: 2px solid #ebebeb;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #e5e5e5;
+    opacity: 0.5;
+    padding-left: 31px;
+    
+}
+
+.input__number{
+    margin-top: 22px;
+    width: 500px;
+    height: 40px;
+    border: 2px solid #ebebeb;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #bdbdbd;
+    opacity: 0.5;
+    padding-left: 31px;
+}
+
+.info{
+    margin-top: 22px;
+    width: 500px;
+    height: 147px;
+    border: 2px solid #ebebeb;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #bdbdbd;
+    opacity: 0.5;
+    padding-left: 31px;
+   
+}
+
+.footer{
+    background-color: #ffffff;
+    width: 920px;
+    height: 185px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 36px 4px rgba(44,22,29,0.3);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 210px;
+    position: relative;
+}
+
+.input__code{
+    width: 320px;
+    height: 40px;
+    border: 2px solid #ebebeb;
+    margin-top: 40px;
+}
+
+.input__card{
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    left: 548px;
+    top: 48px;
+}
+
+.footer__span{
+    padding-top: 9px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #82a6bf;
+    margin-bottom: 65px;
+}
+
+.footer__btn{
+    width: 208px;
+    height: 66px;
+    background-color: #16ba98;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+    left: 358px;
+    top: 149px;
+}
+    
